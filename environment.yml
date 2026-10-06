@@ -1,0 +1,7 @@
+name: dbpedia-network
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - rdflib
+  - networkx
