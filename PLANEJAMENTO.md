@@ -55,14 +55,17 @@ influencia. Nao sera realizada divisao por periodos historicos.
 
 ## 3. Deteccao de comunidades - etapa atual
 
-- [~] Usar a maior componente fracamente conexa como recorte principal. O
-  recorte foi validado com 20.099 vertices e 31.545 arestas e ainda deve ser
-  incorporado ao notebook.
-- [~] Executar Louvain com modularidade e `resolution=1`. Uma execucao de
-  viabilidade encontrou 133 comunidades e modularidade 0,796999.
-- [~] Executar Leiden com `metric="modularity"` e `resolution=1`. Uma execucao
-  de viabilidade encontrou 110 comunidades e modularidade 0,806612.
+- [x] Usar a maior componente fracamente conexa como recorte principal, com
+  20.099 vertices e 31.545 arestas.
+- [x] Executar o baseline de Louvain com modularidade, `resolution=1` e
+  `seed=42`: 133 comunidades, modularidade 0,796999 e maior comunidade com
+  2.354 vertices.
+- [x] Executar o baseline de Leiden com `metric="modularity"`, `resolution=1`
+  e `seed=42`: 110 comunidades, modularidade 0,801381 e maior comunidade com
+  1.748 vertices.
 - [ ] Gerar 100 particoes independentes para cada algoritmo.
+- [ ] Persistir as 100 particoes e seus metadados em arquivos `.npz` e `.csv`,
+  sem depender dos outputs embutidos no notebook.
 - [ ] Construir uma matriz de consenso separada para Louvain e Leiden.
 - [ ] Usar `tau=0.5` como limiar principal e `tau=0.3` e `tau=0.7` na analise
   de sensibilidade.
