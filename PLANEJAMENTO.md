@@ -27,30 +27,41 @@ influencia. Nao sera realizada divisao por periodos historicos.
 - [x] Auditar a rede canonica: 39.019 vertices, 38.958 arestas, 1 laco,
   8.055 vertices com `field`, 11.579 componentes fracamente conexas e maior
   componente fraca com 20.099 vertices.
-- [ ] Corrigir o nome do arquivo de `dbpedia-network-cannonical.graphml` para
-  `dbpedia-network-canonical.graphml` e atualizar a referencia no notebook.
+- [x] Corrigir o nome do arquivo para `dbpedia-network-canonical.graphml` e
+  atualizar a referencia no notebook.
+- [ ] Remover, depois da validacao final, o arquivo obsoleto
+  `dbpedia-network-cannonical.graphml`.
 
-## 2. Metricas da rede canonica - etapa atual
+## 2. Metricas da rede canonica - concluida
 
-- [~] As funcoes de metricas basicas ja existem no notebook, mas os resultados
-  salvos ainda correspondem a uma versao anterior da rede.
-- [ ] Criar uma copia analitica da rede e remover o unico laco, mantendo sua
-  existencia registrada na auditoria.
-- [ ] Recalcular as metricas dirigidas e nao dirigidas usando exclusivamente a
+- [x] Manter as funcoes de metricas basicas e fazer `analyze_network` retornar
+  o dicionario de resultados.
+- [x] Criar `G_analysis` como copia da rede canonica e remover o unico laco.
+- [x] Executar e salvar `results = analyze_network(G_analysis)`.
+- [x] Recalcular as metricas dirigidas e nao dirigidas usando exclusivamente a
   rede canonica.
-- [ ] Recalcular distribuicoes de graus, componentes e coeficientes de
+- [x] Recalcular distribuicoes de graus, componentes e coeficientes de
   clusterizacao.
-- [ ] Registrar separadamente componentes fracas e fortes. Na rede canonica,
-  a maior componente fortemente conexa possui 66 vertices.
-- [ ] Atualizar as figuras e tabelas que serao usadas no relatorio final.
+- [x] Registrar separadamente componentes fracas e fortes. A rede possui 38.721
+  componentes fortes e a maior delas possui 66 vertices.
+- [x] Atualizar as figuras de graus, componentes e clusterizacao.
+- [x] Registrar as novas metricas direcionadas: 38.957 arestas sem o laco,
+  graus medios de entrada e saida 0,998411, densidade 0,0000255885,
+  clustering medio 0,012632, distancia media 5,451049 e diametro 15 na maior
+  componente forte.
+- [ ] Atualizar as tabelas que serao usadas no relatorio final.
 - [ ] Comparar os novos valores com a entrega parcial e explicar as mudancas
   causadas pela canonicalizacao.
 
-## 3. Deteccao de comunidades
+## 3. Deteccao de comunidades - etapa atual
 
-- [ ] Usar a maior componente fracamente conexa como recorte principal.
-- [ ] Executar Louvain com modularidade e `resolution=1`.
-- [ ] Executar Leiden com `metric="modularity"` e `resolution=1`.
+- [~] Usar a maior componente fracamente conexa como recorte principal. O
+  recorte foi validado com 20.099 vertices e 31.545 arestas e ainda deve ser
+  incorporado ao notebook.
+- [~] Executar Louvain com modularidade e `resolution=1`. Uma execucao de
+  viabilidade encontrou 133 comunidades e modularidade 0,796999.
+- [~] Executar Leiden com `metric="modularity"` e `resolution=1`. Uma execucao
+  de viabilidade encontrou 110 comunidades e modularidade 0,806612.
 - [ ] Gerar 100 particoes independentes para cada algoritmo.
 - [ ] Construir uma matriz de consenso separada para Louvain e Leiden.
 - [ ] Usar `tau=0.5` como limiar principal e `tau=0.3` e `tau=0.7` na analise
