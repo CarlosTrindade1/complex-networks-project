@@ -11,8 +11,6 @@ influência na rede canônica do DBpedia. O baseline combina:
 4. ranqueamento do potencial de propagação das comunidades;
 5. seleção de nós-semente com orçamentos comparáveis.
 
-A heurística futura não é definida nem executada nesta etapa.
-
 ## Protocolo congelado
 
 - Rede dirigida canônica, após remoção do único laço.
