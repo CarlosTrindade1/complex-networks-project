@@ -1,0 +1,14 @@
+strategy,community_id,community_label,community_category,community_confidence,seed_count,seed_nodes,selection_orders,marginal_reach_from_seeds,community_size,dominant_field,field_coverage,community_external_reach,other_communities_reached
+greedy_celf,0,Linguagens de programação e genealogia de paradigmas,agrupamento_tematico,alta,1,Assembly_language,6,212,865,,0.0,0,0
+greedy_celf,6,Astrofísica e física teórica britânica,linhagem_cientifica,alta,1,Ralph_H._Fowler,8,139,313,,0.0,463,17
+greedy_celf,7,Cânone da filosofia antiga à moderna,agrupamento_tematico,alta,1,Hesiod,1,9864,1846,Political economy,0.0065005417118093175,8672,83
+greedy_celf,19,"Matemática francesa: análise, geometria e estruturas",linhagem_cientifica,alta,1,Siméon_Denis_Poisson,3,683,580,Financial economics,0.006896551724137931,7869,78
+greedy_celf,20,Física quântica e física teórica,linhagem_cientifica,alta,1,C._Felix_Klein,9,136,770,Ceramics (art),0.003896103896103896,4916,60
+greedy_celf,23,"Física matemática, geociências e sistemas complexos",agrupamento_misto,baixa,1,Andreas_von_Ettingshausen,5,235,587,Mathematical economics,0.0017035775127768314,6498,73
+greedy_celf,26,Matemática alemã dos séculos XIX e XX,linhagem_cientifica,alta,1,Christian_August_Hausen,2,1029,694,,0.0,9646,79
+greedy_celf,27,"Pensamento moderno, cultura e teoria social",agrupamento_tematico,media,1,Nicolas_Antoine_Boulanger,4,308,817,Activism,0.0036719706242350062,9086,80
+greedy_celf,28,"Física matemática, geometria e teoria dos números",linhagem_cientifica,media,1,Pietro_Paoli,10,96,300,,0.0,4062,57
+greedy_celf,31,Escola matemática russa e soviética,linhagem_cientifica,alta,1,Pafnuty_Chebyshev,7,146,347,,0.0,1073,37
+maior_grau_saida,1,Filosofia analítica e filosofia anglófona do século XX,tradicao_intelectual,media,2,Ludwig_Wittgenstein;Bertrand_Russell,4;9,0,1013,Sculpture,0.005923000987166831,5643,74
+maior_grau_saida,5,"Filosofia continental, idealismo e crítica social",tradicao_intelectual,media,6,Karl_Marx;Immanuel_Kant;Martin_Heidegger;Friedrich_Nietzsche;Leo_Strauss;Edmund_Husserl,1;2;6;7;8;10,7740,1999,Political economy,0.004502251125562781,7655,78
+maior_grau_saida,7,Cânone da filosofia antiga à moderna,agrupamento_tematico,alta,2,Aristotle;Plato,3;5,2027,1846,Political economy,0.0065005417118093175,8672,83

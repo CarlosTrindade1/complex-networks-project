@@ -161,9 +161,18 @@ influencia. Nao sera realizada divisao por periodos historicos.
   alcances externos sao das comunidades 26 (9.646 vertices), 15 (9.133), 27
   (9.086), 57 (9.011, apesar de conter somente 4 vertices) e 77 (8.678, com
   13 vertices).
-- [ ] Avaliar orcamentos comparaveis de `k=1`, `k=5` e `k=10` sementes.
-- [ ] Selecionar sementes por greedy/CELF deterministico e comparar com a
-  selecao por maior grau de saida.
+- [x] Avaliar orcamentos comparaveis de `k=1`, `k=5` e `k=10` sementes.
+  Sob propagacao deterministica, greedy/CELF alcanca respectivamente 49,1%,
+  60,3% e 63,9% da rede; a referencia por grau de saida alcanca 28,3%,
+  48,6% e 48,6%.
+- [x] Selecionar sementes por greedy/CELF deterministico e comparar com a
+  selecao por maior grau de saida. Usar SCCs para evitar candidatos
+  equivalentes e desempate pelo identificador do no; persistir sementes,
+  ganhos marginais, tabela por orcamento e figura em
+  `community_results/influence/seed_selection/`.
+- [~] Caracterizar as comunidades que fornecem as sementes, reunindo para
+  cada semente sua comunidade Leiden, rotulo interpretativo, tipo e confianca
+  da caracterizacao, perfil de `field` e metricas de propagacao comunitaria.
 - [x] Persistir rankings de alcance total, alcance externo e eficiencia por
   semente, incluindo as comunidades e seus vertices representativos, em
   `community_results/influence/`.
