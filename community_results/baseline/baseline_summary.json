@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "status": "baseline_concluded",
+  "network": {
+    "source": "dbpedia-network-canonical.graphml",
+    "directed": true,
+    "canonical_nodes": 39019,
+    "canonical_edges_without_self_loops": 38957,
+    "analysis_component": "largest_weakly_connected_component",
+    "analysis_nodes": 20099,
+    "analysis_edges": 31545
+  },
+  "community_detection": {
+    "algorithms": [
+      "louvain",
+      "leiden"
+    ],
+    "independent_runs_per_algorithm": 100,
+    "seeds": {
+      "minimum": 0,
+      "maximum": 99
+    },
+    "consensus_threshold_primary": 0.5,
+    "consensus_threshold_sensitivity": [
+      0.3,
+      0.7
+    ],
+    "selected_partition_for_interpretation": "leiden",
+    "selected_partition_communities": 96,
+    "partition_metrics": [
+      {
+        "algorithm": "louvain",
+        "nodes": 20099,
+        "communities": 103,
+        "modularity_original_graph": 0.8069577542727984,
+        "minimum_size": 4,
+        "first_quartile_size": 8.5,
+        "median_size": 20.0,
+        "mean_size": 195.1359223300971,
+        "third_quartile_size": 235.0,
+        "maximum_size": 2097,
+        "standard_deviation_size": 355.26978805102357
+      },
+      {
+        "algorithm": "leiden",
+        "nodes": 20099,
+        "communities": 96,
+        "modularity_original_graph": 0.8102798757726742,
+        "minimum_size": 4,
+        "first_quartile_size": 10.75,
+        "median_size": 24.0,
+        "mean_size": 209.36458333333334,
+        "third_quartile_size": 292.5,
+        "maximum_size": 1999,
+        "standard_deviation_size": 364.8175377212464
+      }
+    ],
+    "louvain_leiden_agreement": {
+      "normalized_mutual_information": 0.9070157696920322,
+      "adjusted_rand_index": 0.8457554550332904,
+      "variation_of_information_nats": 0.6588761251000204
+    },
+    "run_stability": [
+      {
+        "algorithm": "louvain",
+        "runs": 100,
+        "seed_minimum": 0,
+        "seed_maximum": 99,
+        "modularity_mean": 0.7999715199180695,
+        "modularity_population_sd": 0.0045543285079841225,
+        "modularity_minimum": 0.78901102343285,
+        "modularity_maximum": 0.8090710699398377,
+        "communities_minimum": 93,
+        "communities_maximum": 142,
+        "runtime_seconds_mean": 2.7515094004400087
+      },
+      {
+        "algorithm": "leiden",
+        "runs": 100,
+        "seed_minimum": 0,
+        "seed_maximum": 99,
+        "modularity_mean": 0.8042394384149466,
+        "modularity_population_sd": 0.003858303286736702,
+        "modularity_minimum": 0.7942760192255547,
+        "modularity_maximum": 0.811696624222389,
+        "communities_minimum": 91,
+        "communities_maximum": 155,
+        "runtime_seconds_mean": 6.9880524201899785
+      }
+    ],
+    "sensitivity": [
+      {
+        "algorithm": "louvain",
+        "tau": 0.3,
+        "consensus_iterations": 2,
+        "communities": 60,
+        "nmi_vs_tau_0_5": 0.8565335601328372,
+        "ari_vs_tau_0_5": 0.7346578804163387,
+        "variation_of_information_nats_vs_tau_0_5": 0.9350864019324145
+      },
+      {
+        "algorithm": "louvain",
+        "tau": 0.5,
+        "consensus_iterations": 2,
+        "communities": 103,
+        "nmi_vs_tau_0_5": 1.0,
+        "ari_vs_tau_0_5": 1.0,
+        "variation_of_information_nats_vs_tau_0_5": 0.0
+      },
+      {
+        "algorithm": "louvain",
+        "tau": 0.7,
+        "consensus_iterations": 2,
+        "communities": 310,
+        "nmi_vs_tau_0_5": 0.8802339808579227,
+        "ari_vs_tau_0_5": 0.7451366890768965,
+        "variation_of_information_nats_vs_tau_0_5": 0.9543554158110519
+      },
+      {
+        "algorithm": "leiden",
+        "tau": 0.3,
+        "consensus_iterations": 2,
+        "communities": 60,
+        "nmi_vs_tau_0_5": 0.864598994823948,
+        "ari_vs_tau_0_5": 0.7658707281856189,
+        "variation_of_information_nats_vs_tau_0_5": 0.887585908381463
+      },
+      {
+        "algorithm": "leiden",
+        "tau": 0.5,
+        "consensus_iterations": 2,
+        "communities": 96,
+        "nmi_vs_tau_0_5": 1.0,
+        "ari_vs_tau_0_5": 1.0,
+        "variation_of_information_nats_vs_tau_0_5": 0.0
+      },
+      {
+        "algorithm": "leiden",
+        "tau": 0.7,
+        "consensus_iterations": 2,
+        "communities": 294,
+        "nmi_vs_tau_0_5": 0.8897343251055697,
+        "ari_vs_tau_0_5": 0.7792672976774389,
+        "variation_of_information_nats_vs_tau_0_5": 0.8658106129254435
+      }
+    ]
+  },
+  "influence_model": {
+    "model": "deterministic_directed_reachability",
+    "edge_activation_probability": 1.0,
+    "scc_treatment": "condensation_dag",
+    "strongly_connected_components": 19808,
+    "condensation_edges": 29010,
+    "largest_scc_nodes": 66,
+    "community_seed_interpretation": "all nodes in the community",
+    "individual_seed_budgets": [
+      1,
+      5,
+      10
+    ],
+    "individual_seed_strategies": [
+      "greedy_celf",
+      "maior_grau_saida"
+    ],
+    "seed_budget_results": [
+      {
+        "strategy": "greedy_celf",
+        "k": 1,
+        "seed_nodes": "Hesiod",
+        "reached_nodes": 9864,
+        "reach_fraction_network": 0.49077068510871186
+      },
+      {
+        "strategy": "greedy_celf",
+        "k": 5,
+        "seed_nodes": "Hesiod;Christian_August_Hausen;Siméon_Denis_Poisson;Nicolas_Antoine_Boulanger;Andreas_von_Ettingshausen",
+        "reached_nodes": 12119,
+        "reach_fraction_network": 0.6029653216577939
+      },
+      {
+        "strategy": "greedy_celf",
+        "k": 10,
+        "seed_nodes": "Hesiod;Christian_August_Hausen;Siméon_Denis_Poisson;Nicolas_Antoine_Boulanger;Andreas_von_Ettingshausen;Assembly_language;Pafnuty_Chebyshev;Ralph_H._Fowler;C._Felix_Klein;Pietro_Paoli",
+        "reached_nodes": 12848,
+        "reach_fraction_network": 0.6392357828747699
+      },
+      {
+        "strategy": "maior_grau_saida",
+        "k": 1,
+        "seed_nodes": "Karl_Marx",
+        "reached_nodes": 5695,
+        "reach_fraction_network": 0.283347430220409
+      },
+      {
+        "strategy": "maior_grau_saida",
+        "k": 5,
+        "seed_nodes": "Karl_Marx;Immanuel_Kant;Aristotle;Ludwig_Wittgenstein;Plato",
+        "reached_nodes": 9767,
+        "reach_fraction_network": 0.48594457435693317
+      },
+      {
+        "strategy": "maior_grau_saida",
+        "k": 10,
+        "seed_nodes": "Karl_Marx;Immanuel_Kant;Aristotle;Ludwig_Wittgenstein;Plato;Martin_Heidegger;Friedrich_Nietzsche;Leo_Strauss;Bertrand_Russell;Edmund_Husserl",
+        "reached_nodes": 9767,
+        "reach_fraction_network": 0.48594457435693317
+      }
+    ]
+  },
+  "characterization": {
+    "communities": 96,
+    "classification_counts": {
+      "agrupamento_tematico": 14,
+      "tradicao_intelectual": 18,
+      "linhagem_cientifica": 38,
+      "escola_candidata": 12,
+      "agrupamento_misto": 14
+    },
+    "confidence_counts": {
+      "alta": 48,
+      "media": 30,
+      "baixa": 18
+    },
+    "field_annotated_nodes": 473,
+    "analysis_nodes": 20099,
+    "field_limitation": "Field é esparso; evidência apoiada requer ao menos duas ocorrências e cobertura comunitária mínima de 5%."
+  },
+  "frozen_future_comparison_protocol": {
+    "same_network": true,
+    "same_deterministic_propagation": true,
+    "same_scc_treatment": true,
+    "same_partition_metrics": true,
+    "same_influence_metrics": true,
+    "note": "Nenhuma heurística é definida ou executada neste baseline."
+  },
+  "limitations": [
+    "Arestas representam relações diretas observadas no DBpedia.",
+    "Propagação transitiva é uma hipótese estrutural do modelo.",
+    "p=1 mede alcance potencial, não probabilidade empírica de difusão.",
+    "A caracterização semântica é limitada pela baixa cobertura de field.",
+    "A análise principal usa somente a maior componente fracamente conexa."
+  ]
+}

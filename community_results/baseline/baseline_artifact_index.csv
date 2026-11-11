@@ -1,0 +1,16 @@
+category,path,description,exists
+network,dbpedia-network-canonical.graphml,Rede canônica completa,True
+partition,community_results/final_partitions/leiden_consensus_final.npz,Partição Leiden consensual principal,True
+partition,community_results/final_partitions/louvain_consensus_final.npz,Partição Louvain consensual de referência,True
+stability,community_results/leiden_runs.csv,Cem execuções independentes de Leiden,True
+stability,community_results/louvain_runs.csv,Cem execuções independentes de Louvain,True
+partition_metrics,community_results/final_partitions/partition_summary.csv,Métricas das partições finais,True
+partition_agreement,community_results/final_partitions/agreement_metrics.csv,Concordância Louvain-Leiden,True
+characterization,community_results/influence/leiden_community_characterization.csv,Caracterização das 96 comunidades Leiden,True
+community_influence,community_results/influence/leiden_community_collective_propagation.csv,Propagação coletiva das comunidades,True
+seed_selection,community_results/influence/seed_selection/deterministic_seed_selection_steps.csv,Seleção e ganhos marginais das sementes,True
+seed_budgets,community_results/influence/seed_selection/deterministic_seed_budget_comparison.csv,"Comparação de k=1, 5 e 10",True
+seed_characterization,community_results/influence/seed_selection/deterministic_seed_community_characterization.csv,Comunidades das sementes,True
+baseline_summary,community_results/baseline/baseline_summary.json,Resumo consolidado legível por máquina,True
+baseline_communities,community_results/baseline/baseline_communities.csv,Tabela consolidada por comunidade,True
+baseline_sensitivity,community_results/baseline/baseline_sensitivity.csv,Sensibilidade ao limiar de consenso,True

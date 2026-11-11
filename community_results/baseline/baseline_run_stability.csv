@@ -1,0 +1,3 @@
+algorithm,runs,seed_minimum,seed_maximum,modularity_mean,modularity_population_sd,modularity_minimum,modularity_maximum,communities_minimum,communities_maximum,runtime_seconds_mean
+louvain,100,0,99,0.7999715199180695,0.0045543285079841225,0.78901102343285,0.8090710699398377,93,142,2.7515094004400087
+leiden,100,0,99,0.8042394384149466,0.003858303286736702,0.7942760192255547,0.811696624222389,91,155,6.9880524201899785

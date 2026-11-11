@@ -2,9 +2,10 @@
 
 ## Objetivo atual
 
-Identificar comunidades que representem possiveis escolas de pensamento na rede
-agregada do DBpedia e mensurar sua capacidade de propagacao deterministica de
-influencia. Nao sera realizada divisao por periodos historicos.
+Baseline concluido: detectar comunidades estaveis na rede agregada do DBpedia,
+caracteriza-las e mensurar seu potencial de propagacao deterministica. Os
+resultados foram consolidados como referencia reproduzivel para uma etapa
+metodologica futura, sem divisao por periodos historicos.
 
 ## Legenda
 
@@ -53,7 +54,7 @@ influencia. Nao sera realizada divisao por periodos historicos.
 - [ ] Comparar os novos valores com a entrega parcial e explicar as mudancas
   causadas pela canonicalizacao.
 
-## 3. Deteccao de comunidades - etapa atual
+## 3. Deteccao de comunidades - concluida
 
 - [x] Usar a maior componente fracamente conexa como recorte principal, com
   20.099 vertices e 31.545 arestas.
@@ -147,7 +148,7 @@ influencia. Nao sera realizada divisao por periodos historicos.
   ou institucionais e rebaixar abordagens profissionais, linhagens autorais e
   tradicoes amplas que nao sustentam o status de escola.
 
-## 4. Propagacao deterministica de influencia
+## 4. Propagacao deterministica de influencia - concluida
 
 - [x] Adotar probabilidade `p=1` para todas as arestas.
 - [x] Interpretar a propagacao como alcancabilidade na rede dirigida.
@@ -170,21 +171,32 @@ influencia. Nao sera realizada divisao por periodos historicos.
   equivalentes e desempate pelo identificador do no; persistir sementes,
   ganhos marginais, tabela por orcamento e figura em
   `community_results/influence/seed_selection/`.
-- [~] Caracterizar as comunidades que fornecem as sementes, reunindo para
+- [x] Caracterizar as comunidades que fornecem as sementes, reunindo para
   cada semente sua comunidade Leiden, rotulo interpretativo, tipo e confianca
   da caracterizacao, perfil de `field` e metricas de propagacao comunitaria.
+  As 10 sementes greedy/CELF pertencem a 10 comunidades distintas, enquanto
+  as 10 sementes por maior grau de saida se concentram em 3 comunidades.
 - [x] Persistir rankings de alcance total, alcance externo e eficiencia por
   semente, incluindo as comunidades e seus vertices representativos, em
   `community_results/influence/`.
 
-## 5. Resultados e entrega final
+## 5. Consolidacao e entrega do baseline
 
-- [ ] Gerar tabelas reproduziveis de comunidades e propagacao.
-- [ ] Produzir graficos de consenso, estabilidade e alcance.
+- [x] Gerar tabelas reproduziveis de comunidades e propagacao.
+- [x] Produzir graficos de consenso, estabilidade e alcance.
 - [x] Interpretar as comunidades mais influentes como candidatas a escolas de
   pensamento.
+- [x] Consolidar protocolo, resultados, limitacoes e indice de artefatos em
+  `BASELINE.md` e `community_results/baseline/`.
+- [x] Incorporar ao `main.ipynb` todo o codigo de caracterizacao semantica e
+  consolidacao. O notebook valida e regenera os resultados sem importar
+  scripts locais; os JSONs de interpretacao permanecem como entradas
+  declarativas de curadoria.
+- [x] Congelar para comparacoes futuras a mesma rede, propagacao deterministica,
+  tratamento de SCCs e metricas de particao e influencia, sem implementar a
+  heuristica nesta etapa.
 - [ ] Documentar as componentes fora da maior componente em um apendice.
 - [ ] Atualizar objetivos e metodologia, removendo a analise temporal.
-- [ ] Registrar como limitacao que as arestas representam influencia direta
+- [x] Registrar como limitacao que as arestas representam influencia direta
   observada, enquanto a propagacao transitiva e uma hipotese do modelo.
 - [ ] Manter o algoritmo preliminar do mestrado como extensao opcional.
