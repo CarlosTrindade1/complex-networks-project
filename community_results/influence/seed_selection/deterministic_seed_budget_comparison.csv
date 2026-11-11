@@ -1,0 +1,7 @@
+strategy,k,seed_nodes,reached_nodes,reach_fraction_network
+greedy_celf,1,Hesiod,9864,0.49077068510871186
+greedy_celf,5,Hesiod;Christian_August_Hausen;Siméon_Denis_Poisson;Nicolas_Antoine_Boulanger;Andreas_von_Ettingshausen,12119,0.6029653216577939
+greedy_celf,10,Hesiod;Christian_August_Hausen;Siméon_Denis_Poisson;Nicolas_Antoine_Boulanger;Andreas_von_Ettingshausen;Assembly_language;Pafnuty_Chebyshev;Ralph_H._Fowler;C._Felix_Klein;Pietro_Paoli,12848,0.6392357828747699
+maior_grau_saida,1,Karl_Marx,5695,0.283347430220409
+maior_grau_saida,5,Karl_Marx;Immanuel_Kant;Aristotle;Ludwig_Wittgenstein;Plato,9767,0.48594457435693317
+maior_grau_saida,10,Karl_Marx;Immanuel_Kant;Aristotle;Ludwig_Wittgenstein;Plato;Martin_Heidegger;Friedrich_Nietzsche;Leo_Strauss;Bertrand_Russell;Edmund_Husserl,9767,0.48594457435693317

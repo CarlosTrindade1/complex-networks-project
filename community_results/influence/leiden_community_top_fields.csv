@@ -1,0 +1,123 @@
+community_id,field_rank,field,field_label,nodes_with_field,field_count,field_share_of_assignments
+1,1,Sculpture,Sculpture,6,2,0.14285714285714285
+1,2,Art,Art,6,1,0.07142857142857142
+1,3,Conceptual_art,Conceptual art,6,1,0.07142857142857142
+1,4,Installation_art,Installation art,6,1,0.07142857142857142
+1,5,International_Economics,International Economics,6,1,0.07142857142857142
+1,6,Islamic_studies,Islamic studies,6,1,0.07142857142857142
+1,7,Methodology,Methodology,6,1,0.07142857142857142
+1,8,Orientalism,Orientalism,6,1,0.07142857142857142
+1,9,Philosophy,Philosophy,6,1,0.07142857142857142
+1,10,Political_economy,Political economy,6,1,0.07142857142857142
+3,1,Behavioral_economics,Behavioral economics,10,4,0.25
+3,2,Macroeconomics,Macroeconomics,10,3,0.1875
+3,3,Behavioral_finance,Behavioral finance,10,2,0.125
+3,4,Finance,Finance,10,1,0.0625
+3,5,Game_theory,Game theory,10,1,0.0625
+3,6,Health_economics,Health economics,10,1,0.0625
+3,7,Hospital_medicine,Hospital medicine,10,1,0.0625
+3,8,Investment,Investment,10,1,0.0625
+3,9,Labor_economics,Labor economics,10,1,0.0625
+3,10,Neuroeconomics,Neuroeconomics,10,1,0.0625
+5,1,Political_economy,Political economy,9,3,0.17647058823529413
+5,2,Marxian_economics,Marxian economics,9,2,0.11764705882352941
+5,3,Economic_theory,Economic theory,9,1,0.058823529411764705
+5,4,Evolutionary_economics,Evolutionary economics,9,1,0.058823529411764705
+5,5,Game_Theory,Game Theory,9,1,0.058823529411764705
+5,6,Institutional_economics,Institutional economics,9,1,0.058823529411764705
+5,7,International_Business,International Business,9,1,0.058823529411764705
+5,8,International_affairs,International affairs,9,1,0.058823529411764705
+5,9,International_economics,International economics,9,1,0.058823529411764705
+5,10,Internationalization,Internationalization,9,1,0.058823529411764705
+7,1,Political_economy,Political economy,12,4,0.26666666666666666
+7,2,Macroeconomics,Macroeconomics,12,2,0.13333333333333333
+7,3,Conceptual_art,Conceptual art,12,1,0.06666666666666667
+7,4,Demography,Demography,12,1,0.06666666666666667
+7,5,Environmental_economics,Environmental economics,12,1,0.06666666666666667
+7,6,Epistemology,Epistemology,12,1,0.06666666666666667
+7,7,International_trade,International trade,12,1,0.06666666666666667
+7,8,Linguistics,Linguistics,12,1,0.06666666666666667
+7,9,Microeconomics,Microeconomics,12,1,0.06666666666666667
+7,10,Painting,Painting,12,1,0.06666666666666667
+9,1,Economics,Economics,10,3,0.25
+9,2,Macroeconomics,Macroeconomics,10,2,0.16666666666666666
+9,3,Microeconomics,Microeconomics,10,2,0.16666666666666666
+9,4,Econometrics,Econometrics,10,1,0.08333333333333333
+9,5,Information_technology,Information technology,10,1,0.08333333333333333
+9,6,Labor_economics,Labor economics,10,1,0.08333333333333333
+9,7,Mathematical_economics,Mathematical economics,10,1,0.08333333333333333
+9,8,Mathematics,Mathematics,10,1,0.08333333333333333
+11,1,Healthcare_management,Healthcare management,1,1,0.3333333333333333
+11,2,Management_science,Management science,1,1,0.3333333333333333
+11,3,Sociology,Sociology,1,1,0.3333333333333333
+12,1,Macroeconomics,Macroeconomics,373,65,0.1
+12,2,Economics,Economics,373,63,0.09692307692307692
+12,3,Econometrics,Econometrics,373,37,0.05692307692307692
+12,4,Political_economy,Political economy,373,36,0.055384615384615386
+12,5,Monetary_economics,Monetary economics,373,27,0.04153846153846154
+12,6,Microeconomics,Microeconomics,373,23,0.03538461538461538
+12,7,Development_economics,Development economics,373,18,0.027692307692307693
+12,8,Political_economics,Political economics,373,17,0.026153846153846153
+12,9,Economic_history,Economic history,373,15,0.023076923076923078
+12,10,Financial_economics,Financial economics,373,14,0.021538461538461538
+15,1,Competitive_Strategy,Competitive Strategy,1,1,0.25
+15,2,Economic_Policy,Economic Policy,1,1,0.25
+15,3,Economic_planning,Economic planning,1,1,0.25
+15,4,Managerial_economics,Managerial economics,1,1,0.25
+16,1,Economic_History,Economic History,2,1,0.5
+16,2,International_Development,International Development,2,1,0.5
+19,1,Financial_economics,Financial economics,4,2,0.3333333333333333
+19,2,Financial_Economics,Financial Economics,4,1,0.16666666666666666
+19,3,Macroeconomics,Macroeconomics,4,1,0.16666666666666666
+19,4,Mathematical_economics,Mathematical economics,4,1,0.16666666666666666
+19,5,Organizational_economics,Organizational economics,4,1,0.16666666666666666
+20,1,Ceramics_(art),Ceramics (art),3,1,0.1111111111111111
+20,2,Fair_division,Fair division,3,1,0.1111111111111111
+20,3,Game_theory,Game theory,3,1,0.1111111111111111
+20,4,Mathematical_economics,Mathematical economics,3,1,0.1111111111111111
+20,5,Occultist,Occultist,3,1,0.1111111111111111
+20,6,Printmaking,Printmaking,3,1,0.1111111111111111
+20,7,Scenic_design,Scenic design,3,1,0.1111111111111111
+20,8,Sculpture,Sculpture,3,1,0.1111111111111111
+20,9,Social_choice,Social choice,3,1,0.1111111111111111
+23,1,Mathematical_economics,Mathematical economics,1,1,1.0
+25,1,Microeconomics,Microeconomics,11,4,0.16
+25,2,Market_design,Market design,11,3,0.12
+25,3,Game_Theory,Game Theory,11,2,0.08
+25,4,Game_theory,Game theory,11,2,0.08
+25,5,Behavioral_economics,Behavioral economics,11,1,0.04
+25,6,Computer_Vision,Computer Vision,11,1,0.04
+25,7,Econometrics,Econometrics,11,1,0.04
+25,8,Economics_of_networks,Economics of networks,11,1,0.04
+25,9,Environmental_economics,Environmental economics,11,1,0.04
+25,10,Experimental_economics,Experimental economics,11,1,0.04
+27,1,Activism,Activism,3,1,0.14285714285714285
+27,2,Anthropology,Anthropology,3,1,0.14285714285714285
+27,3,Composition_(language),Composition (language),3,1,0.14285714285714285
+27,4,Landscape_painting,Landscape painting,3,1,0.14285714285714285
+27,5,Poetry,Poetry,3,1,0.14285714285714285
+27,6,Political_Economy,Political Economy,3,1,0.14285714285714285
+27,7,Printmaking,Printmaking,3,1,0.14285714285714285
+29,1,Econometrics,Econometrics,3,3,0.75
+29,2,Time_series_analysis,Time series analysis,3,1,0.25
+34,1,Painting,Painting,8,4,0.2857142857142857
+34,2,Architecture,Architecture,8,2,0.14285714285714285
+34,3,Sculpture,Sculpture,8,2,0.14285714285714285
+34,4,Fresco,Fresco,8,1,0.07142857142857142
+34,5,Imperialism_studies,Imperialism studies,8,1,0.07142857142857142
+34,6,Landscape_art,Landscape art,8,1,0.07142857142857142
+34,7,Landscape_painting,Landscape painting,8,1,0.07142857142857142
+34,8,Poetry,Poetry,8,1,0.07142857142857142
+34,9,Poverty_studies,Poverty studies,8,1,0.07142857142857142
+35,1,Environmental_economics,Environmental economics,1,1,1.0
+46,1,Political_economy,Political economy,1,1,1.0
+47,1,Labor_economics,Labor economics,14,4,0.2
+47,2,Macroeconomics,Macroeconomics,14,3,0.15
+47,3,Health_economics,Health economics,14,2,0.1
+47,4,Public_economics,Public economics,14,2,0.1
+47,5,Public_finance,Public finance,14,2,0.1
+47,6,Econometrics,Econometrics,14,1,0.05
+47,7,Economic_History,Economic History,14,1,0.05
+47,8,Economics,Economics,14,1,0.05
+47,9,Game_theory,Game theory,14,1,0.05
+47,10,General_equilibrium,General equilibrium,14,1,0.05

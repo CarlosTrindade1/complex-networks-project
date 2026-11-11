@@ -1,5 +1,10 @@
 network_metrics
 mappingbased-objects_lang=en.ttl
 dbpedia_filtered.ttl
-community_results
+community_results/consensus_cache
+community_results/consensus_iterations
+community_results/leiden_partitions.npz
+community_results/leiden_runs.csv
+community_results/louvain_partitions.npz
+community_results/louvain_runs.csv
 output

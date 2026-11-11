@@ -1,0 +1,3 @@
+algorithm,tau,iteration,graph_nodes,graph_edges,restored_isolated_groups,distinct_partitions,minimum_communities,maximum_communities
+louvain,0.7,1,2814,157169,32,5,308,310
+louvain,0.7,2,311,312,0,1,310,310

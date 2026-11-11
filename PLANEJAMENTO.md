@@ -94,8 +94,15 @@ influencia. Nao sera realizada divisao por periodos historicos.
   grupos, 303.345 arestas incluindo 1.950 autolacos, com restauracao de 2
   arestas (11 pares) para eliminar o unico isolado produzido pelo limiar.
 - [x] Adotar `tau=0,5` como limiar principal dos grafos de consenso.
-- [ ] Repetir o consenso final com `tau=0,3` e `tau=0,7` para a analise de
-  sensibilidade.
+- [x] Repetir o consenso final com `tau=0,3` e `tau=0,7` para a analise de
+  sensibilidade. Todos os cenarios convergiram na segunda iteracao: Louvain
+  encontrou 60, 103 e 310 comunidades, e Leiden 60, 96 e 294 comunidades,
+  para `tau=0,3`, `0,5` e `0,7`, respectivamente.
+- [x] Comparar as particoes da sensibilidade. O limiar principal `tau=0,5`
+  apresenta concordancia alta com os limiares adjacentes (NMI/ARI: 0,856534/
+  0,734658 e 0,880234/0,745137 para Louvain; 0,864599/0,765871 e
+  0,889734/0,779267 para Leiden), enquanto `tau=0,7` fragmenta a rede de
+  forma acentuada. Manter `tau=0,5` como escolha principal.
 - [x] Implementar a execucao iterativa e retomavel da sensibilidade, com
   persistencia de cada iteracao e restauracao dos isolados conforme o metodo
   de consenso.
@@ -119,28 +126,53 @@ influencia. Nao sera realizada divisao por periodos historicos.
 - [x] Executar e validar as tabelas e a figura da comparacao Louvain-Leiden:
   NMI 0,907016, ARI 0,845755 e modularidades 0,806958 (Louvain) e 0,810280
   (Leiden) na rede original.
-- [ ] Caracterizar cada comunidade por estrutura e campos de conhecimento.
+- [x] Caracterizar as comunidades Leiden como candidatas a escolas de
+  pensamento. Para cada comunidade, combinar: (i) campos de conhecimento
+  distintivos em relacao ao restante da rede, e nao somente o campo dominante;
+  (ii) vertices representativos por alcance e centralidade; (iii) relacoes
+  internas de influencia e de orientacao; e (iv) quando necessario,
+  enriquecimento semantico externo (resumos, categorias, ocupacoes e
+  movimentos). Registrar rotulo interpretativo, evidencias e nivel de
+  confianca; usar "agrupamento tematico" quando a evidencia for insuficiente
+  para afirmar uma escola de pensamento.
+- [x] Persistir a caracterizacao das 96 comunidades em tabelas e relatorio
+  reproduziveis. A classificacao final encontrou 12 escolas candidatas, 18
+  tradicoes intelectuais, 38 linhagens cientificas, 14 agrupamentos tematicos
+  e 14 agrupamentos mistos.
+- [x] Tratar a esparsidade de `field` explicitamente: somente 473 dos 20.099
+  vertices do recorte possuem o atributo. Calcular enriquecimento em relacao
+  aos vertices anotados da rede e aceitar um campo como evidencia apoiada
+  apenas com pelo menos duas ocorrencias e cobertura comunitaria de 5%.
+- [x] Verificar semanticamente as 12 escolas candidatas em fontes academicas
+  ou institucionais e rebaixar abordagens profissionais, linhagens autorais e
+  tradicoes amplas que nao sustentam o status de escola.
 
 ## 4. Propagacao deterministica de influencia
 
-- [ ] Adotar probabilidade `p=1` para todas as arestas.
-- [ ] Interpretar a propagacao como alcancabilidade na rede dirigida.
-- [ ] Construir o DAG de condensacao das componentes fortemente conexas.
-- [ ] Medir, para cada comunidade, alcance interno, alcance externo, fracao da
-  componente atingida, outras comunidades atingidas e profundidade da
-  propagacao.
-- [ ] Avaliar a comunidade inteira como conjunto de sementes.
+- [x] Adotar probabilidade `p=1` para todas as arestas.
+- [x] Interpretar a propagacao como alcancabilidade na rede dirigida.
+- [x] Construir o DAG de condensacao das componentes fortemente conexas: 19.808
+  SCCs e 29.010 arestas para 20.099 vertices e 31.545 arestas da rede de
+  influencia; a maior SCC possui 66 vertices.
+- [x] Medir, para cada comunidade Leiden, alcance interno, alcance externo,
+  fracao da rede atingida, outras comunidades atingidas e profundidade da
+  propagacao. Apenas 7 SCCs cruzam comunidades.
+- [x] Avaliar a comunidade inteira como conjunto de sementes. Os maiores
+  alcances externos sao das comunidades 26 (9.646 vertices), 15 (9.133), 27
+  (9.086), 57 (9.011, apesar de conter somente 4 vertices) e 77 (8.678, com
+  13 vertices).
 - [ ] Avaliar orcamentos comparaveis de `k=1`, `k=5` e `k=10` sementes.
 - [ ] Selecionar sementes por greedy/CELF deterministico e comparar com a
   selecao por maior grau de saida.
-- [ ] Produzir rankings de alcance total, alcance externo e eficiencia por
-  semente.
+- [x] Persistir rankings de alcance total, alcance externo e eficiencia por
+  semente, incluindo as comunidades e seus vertices representativos, em
+  `community_results/influence/`.
 
 ## 5. Resultados e entrega final
 
 - [ ] Gerar tabelas reproduziveis de comunidades e propagacao.
 - [ ] Produzir graficos de consenso, estabilidade e alcance.
-- [ ] Interpretar as comunidades mais influentes como candidatas a escolas de
+- [x] Interpretar as comunidades mais influentes como candidatas a escolas de
   pensamento.
 - [ ] Documentar as componentes fora da maior componente em um apendice.
 - [ ] Atualizar objetivos e metodologia, removendo a analise temporal.

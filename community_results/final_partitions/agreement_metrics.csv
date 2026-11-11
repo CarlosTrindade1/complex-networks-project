@@ -1,0 +1,4 @@
+metric,value
+normalized_mutual_information,0.9070157696920322
+adjusted_rand_index,0.8457554550332904
+variation_of_information_nats,0.6588761251000204
