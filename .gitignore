@@ -8,3 +8,5 @@ community_results/leiden_runs.csv
 community_results/louvain_partitions.npz
 community_results/louvain_runs.csv
 output
+__pycache__/
+*.pyc

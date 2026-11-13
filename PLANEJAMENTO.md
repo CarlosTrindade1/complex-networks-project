@@ -200,3 +200,38 @@ metodologica futura, sem divisao por periodos historicos.
 - [x] Registrar como limitacao que as arestas representam influencia direta
   observada, enquanto a propagacao transitiva e uma hipotese do modelo.
 - [ ] Manter o algoritmo preliminar do mestrado como extensao opcional.
+
+## 6. Heuristica GRASP para comunidades propagadoras - em desenvolvimento
+
+- [x] Separar a nova etapa do baseline: criar `community_heuristic.ipynb` e
+  concentrar a implementacao reutilizavel em `community_heuristic.py`.
+- [x] Recarregar exatamente o recorte dirigido congelado do baseline (20.099
+  vertices, 31.545 arestas) e implementar alcance deterministico por SCCs.
+- [x] Implementar a coesao CPM dirigida sem autolacos: para uma comunidade
+  `C`, exigir `e(C) - gamma * |C| * (|C| - 1) >= 0` desde a primeira adicao.
+  Fixar `alpha=0`; o fator `1/m` nao altera a viabilidade.
+- [x] Calibrar `gamma` pelo percentil 25 e pela mediana das densidades
+  internas das 96 comunidades Leiden: 0,0035340022 e 0,0417391304.
+- [x] Implementar uma primeira versao da construcao GRASP, do escore
+  topologico por cobertura externa de um passo, do escore MIA e da busca
+  local por adicao, remocao e troca.
+- [x] Validar em grafos pequenos a coesao, a conectividade da construcao e
+  a equivalencia entre MIA (`p=1`, `theta=1`) e alcance exato.
+- [x] Executar um ensaio inicial reproduzivel de ambas as variantes em um
+  recorte de 100 vertices no notebook separado.
+- [~] Avaliar a viabilidade de MIA na instancia completa: 11.132.096
+  entradas de arborescencias estimadas em `p=1`; falta medir tempo e memoria
+  reais e otimizar as atualizacoes de ganho marginal.
+- [ ] Executar 30 construcoes por variante e valor de `gamma`, com sementes
+  aleatorias de 0 a 29 e lista restrita dos 20% melhores candidatos viaveis.
+- [ ] Manter ate 20 solucoes elite por configuracao, com Jaccard de vertices
+  de no maximo 0,5, e avaliar todas pela alcancabilidade exata.
+- [ ] Comparar as comunidades resultantes com as 96 comunidades Leiden por
+  alcance externo, eficiencia `alcance_externo / |C|`, tamanho e coesao.
+- [ ] Persistir parametros, comunidades, metricas, tempos, rankings e
+  fronteira nao dominada em `community_results/heuristic/`.
+- [ ] Documentar o custo do MIA e, se a preparacao integral superar 4 GiB
+  estimados ou 30 minutos, comparar ambas as variantes no mesmo recorte
+  reproduzivel de 1.000 vertices, separando os resultados da rede completa.
+- [ ] Reservar a avaliacao da aproximacao MIA para `p<1` para uma etapa
+  posterior.
