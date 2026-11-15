@@ -63,6 +63,15 @@ class CommunityHeuristicTests(unittest.TestCase):
             self.assertTrue(is_weakly_connected(graph, refined.nodes))
         self.assertLessEqual(len(diverse_elite(solutions, limit=2)), 2)
 
+    def test_exact_reach_initializes_pair_without_positive_external_gain(self):
+        graph = nx.DiGraph([("a", "b"), ("b", "c"), ("c", "d")])
+        reach = ExactReach(graph)
+        solution = grasp_construct(graph, reach.external, 0.1, run_seed=0)
+        self.assertIsNotNone(solution)
+        self.assertEqual(len(solution.nodes), 2)
+        self.assertTrue(is_weakly_connected(graph, solution.nodes))
+        self.assertTrue(is_cpm_feasible(graph, solution.nodes, 0.1))
+
 
 if __name__ == "__main__":
     unittest.main()

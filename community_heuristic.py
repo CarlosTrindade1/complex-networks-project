@@ -1,7 +1,7 @@
 """Primitives for connected, CPM-constrained spreading communities.
 
-The topological and MIA scores are construction proxies. Final comparisons
-must use an independent diffusion evaluator on the original graph.
+The deterministic experiment uses ExactReach for construction and evaluation.
+Topological and MIA scores remain available for future experiments.
 """
 
 from __future__ import annotations
@@ -211,7 +211,7 @@ def grasp_construct(
     run_seed: int,
     restricted_fraction: float = 0.2,
 ) -> CommunitySolution | None:
-    """Construct one feasible solution; return None if the chosen seed cannot grow."""
+    """Construct a feasible community, initializing with a connected pair."""
     rng = random.Random(run_seed)
     seeds = [(score(frozenset((node,))), node) for node in graph]
     if not seeds:
@@ -225,7 +225,10 @@ def grasp_construct(
             if not is_cpm_feasible(graph, expanded, gamma):
                 continue
             gain = score(expanded) - current_score
-            if gain > 1e-12:
+            # External reach can fall on the first addition when the seed
+            # already reaches its neighbour. A pair is still required to form
+            # a community, so accept the best feasible first addition.
+            if gain > 1e-12 or len(community) == 1:
                 candidates.append((gain, node))
         if not candidates:
             break

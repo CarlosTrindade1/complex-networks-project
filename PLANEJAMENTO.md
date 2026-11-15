@@ -219,19 +219,22 @@ metodologica futura, sem divisao por periodos historicos.
   a equivalencia entre MIA (`p=1`, `theta=1`) e alcance exato.
 - [x] Executar um ensaio inicial reproduzivel de ambas as variantes em um
   recorte de 100 vertices no notebook separado.
-- [~] Avaliar a viabilidade de MIA na instancia completa: 11.132.096
-  entradas de arborescencias estimadas em `p=1`; falta medir tempo e memoria
-  reais e otimizar as atualizacoes de ganho marginal.
-- [ ] Executar 30 construcoes por variante e valor de `gamma`, com sementes
-  aleatorias de 0 a 29 e lista restrita dos 20% melhores candidatos viaveis.
+- [x] Adotar `ExactReach` como escore da heuristica para `p=1`. O MIA e
+  equivalente nesse caso e fica reservado para `p<1`; executar na rede
+  completa, sem recorte de 1.000 vertices.
+- [x] Preparar no notebook a execucao retomavel e persistencia por semente
+  para os dois valores de `gamma`, sem executar o experimento nesta maquina.
+- [x] Garantir que a construcao inicial forme um par conectado e viavel mesmo
+  quando adicionar o segundo vertice reduz o alcance externo; depois do par,
+  exigir ganho positivo. Com o escore exato, 18 das 30 sementes previstas
+  ficariam sem comunidade sob a regra anterior.
+- [ ] Executar 30 construcoes por valor de `gamma`, com sementes aleatorias
+  de 0 a 29 e lista restrita dos 20% melhores candidatos viaveis.
 - [ ] Manter ate 20 solucoes elite por configuracao, com Jaccard de vertices
   de no maximo 0,5, e avaliar todas pela alcancabilidade exata.
 - [ ] Comparar as comunidades resultantes com as 96 comunidades Leiden por
   alcance externo, eficiencia `alcance_externo / |C|`, tamanho e coesao.
 - [ ] Persistir parametros, comunidades, metricas, tempos, rankings e
   fronteira nao dominada em `community_results/heuristic/`.
-- [ ] Documentar o custo do MIA e, se a preparacao integral superar 4 GiB
-  estimados ou 30 minutos, comparar ambas as variantes no mesmo recorte
-  reproduzivel de 1.000 vertices, separando os resultados da rede completa.
-- [ ] Reservar a avaliacao da aproximacao MIA para `p<1` para uma etapa
+- [x] Reservar a avaliacao da aproximacao MIA para `p<1` para uma etapa
   posterior.
