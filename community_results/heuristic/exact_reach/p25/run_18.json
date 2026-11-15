@@ -1,0 +1,47 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 6.802095875139353,
+    "directed_density": 0.125,
+    "external_reach": 9863,
+    "external_reach_per_node": 1232.875,
+    "internal_arcs": 7,
+    "nodes": [
+      "Antoine_Destutt_de_Tracy",
+      "Hesiod",
+      "Homer",
+      "John_Locke",
+      "Orphism_(religion)",
+      "Pierre_Gassendi",
+      "Plato",
+      "Polybius"
+    ],
+    "size": 8,
+    "total_reach": 9871
+  },
+  "construction_seconds": 0.0753194999997504,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.420288723998965,
+  "run_seed": 18,
+  "solution": {
+    "cpm_score": 6.802095875139353,
+    "directed_density": 0.125,
+    "external_reach": 9865,
+    "external_reach_per_node": 1233.125,
+    "internal_arcs": 7,
+    "nodes": [
+      "Cratylus",
+      "Diotima_of_Mantinea",
+      "Hesiod",
+      "Homer",
+      "John_Locke",
+      "Pierre_Gassendi",
+      "Plato",
+      "Polybius"
+    ],
+    "size": 8,
+    "total_reach": 9873
+  },
+  "status": "ok"
+}

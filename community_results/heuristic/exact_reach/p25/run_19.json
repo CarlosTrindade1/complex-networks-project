@@ -1,0 +1,35 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 0.9929319955406912,
+    "directed_density": 0.5,
+    "external_reach": 35,
+    "external_reach_per_node": 17.5,
+    "internal_arcs": 1,
+    "nodes": [
+      "Melvil_Dewey",
+      "Paul_Otlet"
+    ],
+    "size": 2,
+    "total_reach": 37
+  },
+  "construction_seconds": 0.05515405600090162,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.0008466039998893393,
+  "run_seed": 19,
+  "solution": {
+    "cpm_score": 0.9929319955406912,
+    "directed_density": 0.5,
+    "external_reach": 35,
+    "external_reach_per_node": 17.5,
+    "internal_arcs": 1,
+    "nodes": [
+      "Melvil_Dewey",
+      "Paul_Otlet"
+    ],
+    "size": 2,
+    "total_reach": 37
+  },
+  "status": "ok"
+}

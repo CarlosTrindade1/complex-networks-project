@@ -1,0 +1,45 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 4.24695652173913,
+    "directed_density": 0.14285714285714285,
+    "external_reach": 9881,
+    "external_reach_per_node": 1411.5714285714287,
+    "internal_arcs": 6,
+    "nodes": [
+      "Epicurus",
+      "Hesiod",
+      "Homer",
+      "Max_Stirner",
+      "Plato",
+      "Wilhelm_Weitling",
+      "Yang_Zhu"
+    ],
+    "size": 7,
+    "total_reach": 9888
+  },
+  "construction_seconds": 0.06980534800095484,
+  "gamma": 0.04173913043478261,
+  "gamma_label": "mediana",
+  "refinement_seconds": 0.10676526899987948,
+  "run_seed": 3,
+  "solution": {
+    "cpm_score": 4.24695652173913,
+    "directed_density": 0.14285714285714285,
+    "external_reach": 9881,
+    "external_reach_per_node": 1411.5714285714287,
+    "internal_arcs": 6,
+    "nodes": [
+      "Epicurus",
+      "Hesiod",
+      "Homer",
+      "Max_Stirner",
+      "Plato",
+      "Wilhelm_Weitling",
+      "Yang_Zhu"
+    ],
+    "size": 7,
+    "total_reach": 9888
+  },
+  "status": "ok"
+}

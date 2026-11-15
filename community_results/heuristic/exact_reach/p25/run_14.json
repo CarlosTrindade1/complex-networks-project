@@ -1,0 +1,53 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 11.611259754738015,
+    "directed_density": 0.10909090909090909,
+    "external_reach": 9899,
+    "external_reach_per_node": 899.9090909090909,
+    "internal_arcs": 12,
+    "nodes": [
+      "Al-Farabi",
+      "Al-Ghazali",
+      "Aristotle",
+      "Heraclitus",
+      "Jakob_Wimpfeling",
+      "Joachim_of_Fiore",
+      "Johannes_Trithemius",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Ramon_Llull__Ramon_Llull__1",
+      "Thales_of_Miletus"
+    ],
+    "size": 11,
+    "total_reach": 9910
+  },
+  "construction_seconds": 0.08221098800095206,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.8838363160011795,
+  "run_seed": 14,
+  "solution": {
+    "cpm_score": 9.611259754738015,
+    "directed_density": 0.09090909090909091,
+    "external_reach": 9901,
+    "external_reach_per_node": 900.0909090909091,
+    "internal_arcs": 10,
+    "nodes": [
+      "Al-Ghazali",
+      "Aquinas",
+      "Aristotle",
+      "Arnaldus_de_Villa_Nova",
+      "Jakob_Wimpfeling",
+      "Joachim_of_Fiore",
+      "Johannes_Trithemius",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Ramon_Llull__Ramon_Llull__1",
+      "Thales_of_Miletus"
+    ],
+    "size": 11,
+    "total_reach": 9912
+  },
+  "status": "ok"
+}

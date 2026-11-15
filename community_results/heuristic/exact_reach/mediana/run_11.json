@@ -1,0 +1,57 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 6.488695652173913,
+    "directed_density": 0.08333333333333333,
+    "external_reach": 9897,
+    "external_reach_per_node": 761.3076923076923,
+    "internal_arcs": 13,
+    "nodes": [
+      "Aristotle",
+      "Charles_H._Cooley",
+      "Confucius",
+      "Francisco_Suárez",
+      "George_Herbert_Mead",
+      "Gottfried_Wilhelm_Leibniz",
+      "Gustav_Theodor_Fechner",
+      "Herbert_Blumer",
+      "Parmenides",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Thales_of_Miletus",
+      "Wilhelm_Wundt"
+    ],
+    "size": 13,
+    "total_reach": 9910
+  },
+  "construction_seconds": 0.0984422130004532,
+  "gamma": 0.04173913043478261,
+  "gamma_label": "mediana",
+  "refinement_seconds": 0.8440525999994861,
+  "run_seed": 11,
+  "solution": {
+    "cpm_score": 6.488695652173913,
+    "directed_density": 0.08333333333333333,
+    "external_reach": 9898,
+    "external_reach_per_node": 761.3846153846154,
+    "internal_arcs": 13,
+    "nodes": [
+      "Alonso_Rodriguez",
+      "Aristotle",
+      "Charles_H._Cooley",
+      "Confucius",
+      "Francisco_Suárez",
+      "George_Herbert_Mead",
+      "Gottfried_Wilhelm_Leibniz",
+      "Gustav_Theodor_Fechner",
+      "Herbert_Blumer",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Thales_of_Miletus",
+      "Wilhelm_Wundt"
+    ],
+    "size": 13,
+    "total_reach": 9911
+  },
+  "status": "ok"
+}

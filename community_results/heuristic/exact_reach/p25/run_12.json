@@ -1,0 +1,35 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 0.9929319955406912,
+    "directed_density": 0.5,
+    "external_reach": 537,
+    "external_reach_per_node": 268.5,
+    "internal_arcs": 1,
+    "nodes": [
+      "Felix_Ehrenhaft",
+      "Franz_S._Exner"
+    ],
+    "size": 2,
+    "total_reach": 539
+  },
+  "construction_seconds": 0.05470132300069963,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.0009236000005330425,
+  "run_seed": 12,
+  "solution": {
+    "cpm_score": 0.9929319955406912,
+    "directed_density": 0.5,
+    "external_reach": 6568,
+    "external_reach_per_node": 3284.0,
+    "internal_arcs": 1,
+    "nodes": [
+      "Andreas_von_Ettingshausen",
+      "Viktor_von_Lang"
+    ],
+    "size": 2,
+    "total_reach": 6570
+  },
+  "status": "ok"
+}

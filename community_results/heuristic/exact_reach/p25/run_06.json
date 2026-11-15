@@ -1,0 +1,41 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 1.9787959866220737,
+    "directed_density": 0.3333333333333333,
+    "external_reach": 30,
+    "external_reach_per_node": 10.0,
+    "internal_arcs": 2,
+    "nodes": [
+      "Charles_Christian_Lauritsen",
+      "Mihajlo_Pupin",
+      "Robert_Andrews_Millikan"
+    ],
+    "size": 3,
+    "total_reach": 33
+  },
+  "construction_seconds": 0.056841313000404625,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.0290333989996725,
+  "run_seed": 6,
+  "solution": {
+    "cpm_score": 5.851571906354515,
+    "directed_density": 0.14285714285714285,
+    "external_reach": 8855,
+    "external_reach_per_node": 1265.0,
+    "internal_arcs": 6,
+    "nodes": [
+      "Carl_Linnaeus",
+      "Ernst_Gottfried_Baldinger",
+      "Friedrich_Stromeyer",
+      "Johann_Friedrich_Blumenbach",
+      "Johann_Friedrich_Gmelin",
+      "Louis_Nicolas_Vauquelin",
+      "William_Bartram"
+    ],
+    "size": 7,
+    "total_reach": 8862
+  },
+  "status": "ok"
+}

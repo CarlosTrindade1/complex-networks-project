@@ -1,0 +1,35 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 0.9929319955406912,
+    "directed_density": 0.5,
+    "external_reach": 26,
+    "external_reach_per_node": 13.0,
+    "internal_arcs": 1,
+    "nodes": [
+      "Albert_R._Meyer",
+      "Patrick_C._Fischer"
+    ],
+    "size": 2,
+    "total_reach": 28
+  },
+  "construction_seconds": 0.09579572599977837,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.0005126069991092663,
+  "run_seed": 24,
+  "solution": {
+    "cpm_score": 0.9929319955406912,
+    "directed_density": 0.5,
+    "external_reach": 26,
+    "external_reach_per_node": 13.0,
+    "internal_arcs": 1,
+    "nodes": [
+      "Albert_R._Meyer",
+      "Patrick_C._Fischer"
+    ],
+    "size": 2,
+    "total_reach": 28
+  },
+  "status": "ok"
+}

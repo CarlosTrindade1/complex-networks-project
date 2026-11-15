@@ -1,0 +1,35 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 0.9165217391304348,
+    "directed_density": 0.5,
+    "external_reach": 65,
+    "external_reach_per_node": 32.5,
+    "internal_arcs": 1,
+    "nodes": [
+      "David_Bourgin",
+      "Richard_Duffin"
+    ],
+    "size": 2,
+    "total_reach": 67
+  },
+  "construction_seconds": 0.08452758499879565,
+  "gamma": 0.04173913043478261,
+  "gamma_label": "mediana",
+  "refinement_seconds": 0.00023173099907580763,
+  "run_seed": 5,
+  "solution": {
+    "cpm_score": 0.9165217391304348,
+    "directed_density": 0.5,
+    "external_reach": 65,
+    "external_reach_per_node": 32.5,
+    "internal_arcs": 1,
+    "nodes": [
+      "David_Bourgin",
+      "Richard_Duffin"
+    ],
+    "size": 2,
+    "total_reach": 67
+  },
+  "status": "ok"
+}

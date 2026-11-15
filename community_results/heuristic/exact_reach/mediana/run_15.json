@@ -1,0 +1,36 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 1.7495652173913043,
+    "directed_density": 0.3333333333333333,
+    "external_reach": 17,
+    "external_reach_per_node": 5.666666666666667,
+    "internal_arcs": 2,
+    "nodes": [
+      "Alex_Pentland",
+      "Hans-Lukas_Teuber",
+      "Whitman_Richards"
+    ],
+    "size": 3,
+    "total_reach": 20
+  },
+  "construction_seconds": 0.05370169799971336,
+  "gamma": 0.04173913043478261,
+  "gamma_label": "mediana",
+  "refinement_seconds": 0.0010548310001468053,
+  "run_seed": 15,
+  "solution": {
+    "cpm_score": 0.9165217391304348,
+    "directed_density": 0.5,
+    "external_reach": 18,
+    "external_reach_per_node": 9.0,
+    "internal_arcs": 1,
+    "nodes": [
+      "Hans-Lukas_Teuber",
+      "Whitman_Richards"
+    ],
+    "size": 2,
+    "total_reach": 20
+  },
+  "status": "ok"
+}

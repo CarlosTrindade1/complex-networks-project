@@ -1,0 +1,56 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 11.53351170568562,
+    "directed_density": 0.09090909090909091,
+    "external_reach": 10335,
+    "external_reach_per_node": 861.25,
+    "internal_arcs": 12,
+    "nodes": [
+      "Alexander_von_Humboldt",
+      "Aristotle",
+      "Charles_Taylor_(philosopher)",
+      "Ernst_Gottfried_Baldinger",
+      "Gadamer",
+      "Heraclitus",
+      "Johann_Friedrich_Blumenbach",
+      "Lipovetsky",
+      "Michael_Polanyi",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Thales_of_Miletus"
+    ],
+    "size": 12,
+    "total_reach": 10347
+  },
+  "construction_seconds": 0.09586236199902487,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 1.080600728000718,
+  "run_seed": 10,
+  "solution": {
+    "cpm_score": 11.448695652173914,
+    "directed_density": 0.07692307692307693,
+    "external_reach": 10337,
+    "external_reach_per_node": 795.1538461538462,
+    "internal_arcs": 12,
+    "nodes": [
+      "Alexander_von_Humboldt",
+      "Aristotle",
+      "Charles_Taylor_(philosopher)",
+      "Ernst_Anton_Nicolai",
+      "Ernst_Gottfried_Baldinger",
+      "Gadamer",
+      "Johann_Friedrich_Blumenbach",
+      "Johann_Heinrich_Schulze",
+      "Lipovetsky",
+      "Michael_Polanyi",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Thales_of_Miletus"
+    ],
+    "size": 13,
+    "total_reach": 10350
+  },
+  "status": "ok"
+}

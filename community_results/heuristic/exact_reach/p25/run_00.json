@@ -1,0 +1,47 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 7.802095875139353,
+    "directed_density": 0.14285714285714285,
+    "external_reach": 9860,
+    "external_reach_per_node": 1232.5,
+    "internal_arcs": 8,
+    "nodes": [
+      "Aristotle",
+      "Heraclitus",
+      "Irving_Copi",
+      "Jan_Łukasiewicz",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Robert_S._Barton",
+      "Thales_of_Miletus"
+    ],
+    "size": 8,
+    "total_reach": 9868
+  },
+  "construction_seconds": 0.07085035999989486,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.2947557550014608,
+  "run_seed": 0,
+  "solution": {
+    "cpm_score": 6.802095875139353,
+    "directed_density": 0.125,
+    "external_reach": 9861,
+    "external_reach_per_node": 1232.625,
+    "internal_arcs": 7,
+    "nodes": [
+      "Aristotle",
+      "Hesiod",
+      "Irving_Copi",
+      "Jan_Łukasiewicz",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Robert_S._Barton",
+      "Thales_of_Miletus"
+    ],
+    "size": 8,
+    "total_reach": 9869
+  },
+  "status": "ok"
+}

@@ -1,0 +1,48 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 6.802095875139353,
+    "directed_density": 0.125,
+    "external_reach": 6806,
+    "external_reach_per_node": 850.75,
+    "internal_arcs": 7,
+    "nodes": [
+      "Ernst_Kummer",
+      "Harald_Cramér",
+      "Hermann_Schwarz__Hermann_Schwarz__1",
+      "Karl_Weierstrass",
+      "Lipót_Fejér",
+      "Marcel_Riesz",
+      "Olav_Reiersøl",
+      "Ágoston_Scholtz"
+    ],
+    "size": 8,
+    "total_reach": 6814
+  },
+  "construction_seconds": 0.05866871600119339,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.10103427300055046,
+  "run_seed": 2,
+  "solution": {
+    "cpm_score": 7.745551839464883,
+    "directed_density": 0.1111111111111111,
+    "external_reach": 8234,
+    "external_reach_per_node": 914.8888888888889,
+    "internal_arcs": 8,
+    "nodes": [
+      "Abraham_Gotthelf_Kästner",
+      "Ernst_Kummer",
+      "Friedrich_Bessel",
+      "Heinrich_Scherk",
+      "Heinrich_Wilhelm_Brandes",
+      "Hermann_Schwarz__Hermann_Schwarz__1",
+      "Karl_Weierstrass",
+      "Lipót_Fejér",
+      "Ágoston_Scholtz"
+    ],
+    "size": 9,
+    "total_reach": 8243
+  },
+  "status": "ok"
+}

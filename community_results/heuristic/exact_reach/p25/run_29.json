@@ -1,0 +1,57 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 11.448695652173914,
+    "directed_density": 0.07692307692307693,
+    "external_reach": 9883,
+    "external_reach_per_node": 760.2307692307693,
+    "internal_arcs": 12,
+    "nodes": [
+      "Charles_Babbage",
+      "Charles_Fourier",
+      "Ferdinand_Lassalle",
+      "Gaspard_Monge",
+      "Georg_Friedrich_Knapp",
+      "Hesiod",
+      "Homer",
+      "Johann_Jakob_Bachofen",
+      "John_Herschel",
+      "Karl_Marx",
+      "Ladislaus_Bortkiewicz",
+      "Michel_de_Montaigne",
+      "Plato"
+    ],
+    "size": 13,
+    "total_reach": 9896
+  },
+  "construction_seconds": 0.1341362589992059,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.7204638630009867,
+  "run_seed": 29,
+  "solution": {
+    "cpm_score": 11.448695652173914,
+    "directed_density": 0.07692307692307693,
+    "external_reach": 9883,
+    "external_reach_per_node": 760.2307692307693,
+    "internal_arcs": 12,
+    "nodes": [
+      "Charles_Babbage",
+      "Charles_Fourier",
+      "Ferdinand_Lassalle",
+      "Gaspard_Monge",
+      "Georg_Friedrich_Knapp",
+      "Hesiod",
+      "Homer",
+      "Johann_Jakob_Bachofen",
+      "John_Herschel",
+      "Karl_Marx",
+      "Ladislaus_Bortkiewicz",
+      "Michel_de_Montaigne",
+      "Plato"
+    ],
+    "size": 13,
+    "total_reach": 9896
+  },
+  "status": "ok"
+}

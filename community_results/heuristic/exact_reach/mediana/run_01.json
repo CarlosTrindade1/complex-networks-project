@@ -1,0 +1,47 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 5.662608695652174,
+    "directed_density": 0.14285714285714285,
+    "external_reach": 9859,
+    "external_reach_per_node": 1232.375,
+    "internal_arcs": 8,
+    "nodes": [
+      "Aristotle",
+      "Francisco_Suárez",
+      "Heraclitus",
+      "Hugo_Grotius",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Richard_Cumberland_(philosopher)",
+      "Thales_of_Miletus"
+    ],
+    "size": 8,
+    "total_reach": 9867
+  },
+  "construction_seconds": 0.07824070000060601,
+  "gamma": 0.04173913043478261,
+  "gamma_label": "mediana",
+  "refinement_seconds": 0.49048856800072826,
+  "run_seed": 1,
+  "solution": {
+    "cpm_score": 4.662608695652174,
+    "directed_density": 0.125,
+    "external_reach": 9861,
+    "external_reach_per_node": 1232.625,
+    "internal_arcs": 7,
+    "nodes": [
+      "Alberico_Gentili",
+      "Alonso_Rodriguez",
+      "Aristotle",
+      "Francisco_Suárez",
+      "Hugo_Grotius",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Thales_of_Miletus"
+    ],
+    "size": 8,
+    "total_reach": 9869
+  },
+  "status": "ok"
+}

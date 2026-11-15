@@ -1,0 +1,49 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 7.745551839464883,
+    "directed_density": 0.1111111111111111,
+    "external_reach": 9862,
+    "external_reach_per_node": 1095.7777777777778,
+    "internal_arcs": 8,
+    "nodes": [
+      "Aristotle",
+      "Auguste_Comte",
+      "De_Saint-Simon",
+      "Gaston_Bachelard",
+      "Ibn_Khaldun",
+      "Max_Picard",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Thales_of_Miletus"
+    ],
+    "size": 9,
+    "total_reach": 9871
+  },
+  "construction_seconds": 0.0726128010010143,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.20684746699953394,
+  "run_seed": 25,
+  "solution": {
+    "cpm_score": 7.745551839464883,
+    "directed_density": 0.1111111111111111,
+    "external_reach": 9862,
+    "external_reach_per_node": 1095.7777777777778,
+    "internal_arcs": 8,
+    "nodes": [
+      "Aristotle",
+      "Auguste_Comte",
+      "De_Saint-Simon",
+      "Gaston_Bachelard",
+      "Ibn_Khaldun",
+      "Max_Picard",
+      "Pherecydes_of_Syros",
+      "Pythagoras",
+      "Thales_of_Miletus"
+    ],
+    "size": 9,
+    "total_reach": 9871
+  },
+  "status": "ok"
+}

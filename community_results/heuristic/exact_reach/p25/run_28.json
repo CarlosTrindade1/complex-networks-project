@@ -1,0 +1,45 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 5.851571906354515,
+    "directed_density": 0.14285714285714285,
+    "external_reach": 9863,
+    "external_reach_per_node": 1409.0,
+    "internal_arcs": 6,
+    "nodes": [
+      "David_the_Invincible",
+      "Evangelista_Torricelli",
+      "Galileo_Galilei",
+      "Hesiod",
+      "Homer",
+      "John_Philoponus",
+      "Plato"
+    ],
+    "size": 7,
+    "total_reach": 9870
+  },
+  "construction_seconds": 0.06409535199964012,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.2321455760011304,
+  "run_seed": 28,
+  "solution": {
+    "cpm_score": 5.851571906354515,
+    "directed_density": 0.14285714285714285,
+    "external_reach": 9865,
+    "external_reach_per_node": 1409.2857142857142,
+    "internal_arcs": 6,
+    "nodes": [
+      "Cratylus",
+      "David_the_Invincible",
+      "Diotima_of_Mantinea",
+      "Hesiod",
+      "Homer",
+      "John_Philoponus",
+      "Plato"
+    ],
+    "size": 7,
+    "total_reach": 9872
+  },
+  "status": "ok"
+}

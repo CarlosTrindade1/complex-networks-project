@@ -1,0 +1,37 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 1.9787959866220737,
+    "directed_density": 0.3333333333333333,
+    "external_reach": 5789,
+    "external_reach_per_node": 1929.6666666666667,
+    "internal_arcs": 2,
+    "nodes": [
+      "Claudia_Card",
+      "Kant",
+      "Schopenhauer"
+    ],
+    "size": 3,
+    "total_reach": 5792
+  },
+  "construction_seconds": 0.057879332000084105,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.005299012000250514,
+  "run_seed": 8,
+  "solution": {
+    "cpm_score": 1.9787959866220737,
+    "directed_density": 0.3333333333333333,
+    "external_reach": 5789,
+    "external_reach_per_node": 1929.6666666666667,
+    "internal_arcs": 2,
+    "nodes": [
+      "Claudia_Card",
+      "Kant",
+      "Schopenhauer"
+    ],
+    "size": 3,
+    "total_reach": 5792
+  },
+  "status": "ok"
+}

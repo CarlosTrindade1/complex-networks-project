@@ -1,0 +1,43 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 4.8939799331103675,
+    "directed_density": 0.16666666666666666,
+    "external_reach": 9857,
+    "external_reach_per_node": 1642.8333333333333,
+    "internal_arcs": 5,
+    "nodes": [
+      "A._Loos",
+      "Anaximander",
+      "Democritus",
+      "Immanuel_Kant",
+      "Lucretius",
+      "Ludwig_Wittgenstein"
+    ],
+    "size": 6,
+    "total_reach": 9863
+  },
+  "construction_seconds": 0.08262195000133943,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.2252197010002419,
+  "run_seed": 16,
+  "solution": {
+    "cpm_score": 4.8939799331103675,
+    "directed_density": 0.16666666666666666,
+    "external_reach": 9857,
+    "external_reach_per_node": 1642.8333333333333,
+    "internal_arcs": 5,
+    "nodes": [
+      "A._Loos",
+      "Anaximander",
+      "Democritus",
+      "Immanuel_Kant",
+      "Lucretius",
+      "Ludwig_Wittgenstein"
+    ],
+    "size": 6,
+    "total_reach": 9863
+  },
+  "status": "ok"
+}

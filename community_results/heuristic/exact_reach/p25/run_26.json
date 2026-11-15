@@ -1,0 +1,37 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 1.9787959866220737,
+    "directed_density": 0.3333333333333333,
+    "external_reach": 564,
+    "external_reach_per_node": 188.0,
+    "internal_arcs": 2,
+    "nodes": [
+      "DARSIMCO",
+      "DOPE_(Dartmouth_Oversimplified_Programming_Experiment)",
+      "Fortran"
+    ],
+    "size": 3,
+    "total_reach": 567
+  },
+  "construction_seconds": 0.05775600699962524,
+  "gamma": 0.0035340022296544036,
+  "gamma_label": "p25",
+  "refinement_seconds": 0.001700722999885329,
+  "run_seed": 26,
+  "solution": {
+    "cpm_score": 1.9787959866220737,
+    "directed_density": 0.3333333333333333,
+    "external_reach": 564,
+    "external_reach_per_node": 188.0,
+    "internal_arcs": 2,
+    "nodes": [
+      "DARSIMCO",
+      "DOPE_(Dartmouth_Oversimplified_Programming_Experiment)",
+      "Fortran"
+    ],
+    "size": 3,
+    "total_reach": 567
+  },
+  "status": "ok"
+}

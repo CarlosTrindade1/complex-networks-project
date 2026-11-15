@@ -1,0 +1,49 @@
+{
+  "config_id": "c4a1c37b7176b3169508bf845dc6a51914889009898ba5f2f5e6b26523ed3b5d",
+  "constructed": {
+    "cpm_score": 4.994782608695652,
+    "directed_density": 0.1111111111111111,
+    "external_reach": 9373,
+    "external_reach_per_node": 1041.4444444444443,
+    "internal_arcs": 8,
+    "nodes": [
+      "Al-Ghazali",
+      "Allameh_Sayyed_Abul_Hasan_Rafiee_Qazvini",
+      "Bayazid_Bastami",
+      "Hafez",
+      "Ibn_Arabi__Ibn_ʿArabī__1",
+      "Ibn_Masarra",
+      "Ibn_Sina",
+      "Rumi",
+      "Seyyed_Hossein_Nasr"
+    ],
+    "size": 9,
+    "total_reach": 9382
+  },
+  "construction_seconds": 0.06228570300118008,
+  "gamma": 0.04173913043478261,
+  "gamma_label": "mediana",
+  "refinement_seconds": 0.046253198001068085,
+  "run_seed": 27,
+  "solution": {
+    "cpm_score": 4.994782608695652,
+    "directed_density": 0.1111111111111111,
+    "external_reach": 9373,
+    "external_reach_per_node": 1041.4444444444443,
+    "internal_arcs": 8,
+    "nodes": [
+      "Al-Ghazali",
+      "Allameh_Sayyed_Abul_Hasan_Rafiee_Qazvini",
+      "Bayazid_Bastami",
+      "Hafez",
+      "Ibn_Arabi__Ibn_ʿArabī__1",
+      "Ibn_Masarra",
+      "Ibn_Sina",
+      "Rumi",
+      "Seyyed_Hossein_Nasr"
+    ],
+    "size": 9,
+    "total_reach": 9382
+  },
+  "status": "ok"
+}
