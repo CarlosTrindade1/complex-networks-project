@@ -228,13 +228,25 @@ metodologica futura, sem divisao por periodos historicos.
   quando adicionar o segundo vertice reduz o alcance externo; depois do par,
   exigir ganho positivo. Com o escore exato, 18 das 30 sementes previstas
   ficariam sem comunidade sob a regra anterior.
-- [ ] Executar 30 construcoes por valor de `gamma`, com sementes aleatorias
+- [x] Executar 30 construcoes por valor de `gamma`, com sementes aleatorias
   de 0 a 29 e lista restrita dos 20% melhores candidatos viaveis.
-- [ ] Manter ate 20 solucoes elite por configuracao, com Jaccard de vertices
+- [x] Manter ate 20 solucoes elite por configuracao, com Jaccard de vertices
   de no maximo 0,5, e avaliar todas pela alcancabilidade exata.
-- [ ] Comparar as comunidades resultantes com as 96 comunidades Leiden por
+- [x] Comparar as comunidades resultantes com as 96 comunidades Leiden por
   alcance externo, eficiencia `alcance_externo / |C|`, tamanho e coesao.
-- [ ] Persistir parametros, comunidades, metricas, tempos, rankings e
-  fronteira nao dominada em `community_results/heuristic/`.
+- [x] Persistir parametros, comunidades, metricas, tempos, rankings,
+  fronteira nao dominada de tamanho e alcance, e avaliacao em
+  `community_results/heuristic/`.
+- [x] Caracterizar os 31 conjuntos distintos encontrados nas 60 execucoes,
+  sem duplicar solucoes iguais entre valores de `gamma`. Aplicar o protocolo
+  de campos, representantes por alcance e centralidade, relacoes internas,
+  rotulo interpretativo, classe e confianca usado no baseline Leiden;
+  registrar tambem a contribuicao exclusiva de cada integrante ao alcance.
+- [x] Persistir a curadoria e as fichas em
+  `community_characterization/heuristic_community_interpretations.json` e
+  `community_results/heuristic/characterization/`. Nenhum conjunto sustenta
+  classificacao como escola candidata; apenas um dos 31 conjuntos possui um
+  vertice com `field`, sem suporte suficiente para usar esse atributo no
+  rotulo.
 - [x] Reservar a avaliacao da aproximacao MIA para `p<1` para uma etapa
   posterior.
